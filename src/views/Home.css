@@ -1,0 +1,82 @@
+/* Reset default margin and padding */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Button styles */
+header button {
+    background-color: white;
+    border: none;
+    color: #007bff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header button:hover {
+    background-color: #e2e6ea;
+}
+
+/* Title styles */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Subtitle styles */
+h2 {
+    color: #007bff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Main content styles */
+p, ul {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0 20px;
+    text-align: left;
+}
+
+/* List item styles */
+li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+/* Link styles */
+li a {
+    text-decoration: none;
+    color: #007bff;
+    background-color: #e9ecef;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+li a:hover {
+    background-color: #d6d8db;
+}
+
+/* Remove default padding for unordered lists */
+ul {
+    padding: 0;
+}
